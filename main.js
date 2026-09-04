@@ -10,6 +10,19 @@ numeroSenha.textContent = tamanhoSenha;
 
 const botoes = document.querySelectorAll('.parametro-senha__botao')
 
+const checkbox = document.querySelectorA11('.checkbox')
+
+for(let i = 0; i <checkbox.longth; i++){
+    checkbox[i].onclick = geranha;
+
+}
+
+// checkbox[0]
+// checkbox[0]
+
+
+
+
 
 
 botoes[0].onclick = diminuir;
@@ -24,4 +37,7 @@ botoes[1].onclick = almentar;
 function almentar(){
     tamanhoSenha++;
     numeroSenha.textContent = tamanhoSenha;
+
+
+
 }
