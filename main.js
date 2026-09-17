@@ -1,7 +1,12 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto')
 const camposenha =document.querySelector("campo-senha")
 
+const forcasenha = document.querySelector('.forca')
+
+
 camposenha.volume ='aqui vai aparecer a senha'
+
+
 
 letramaisculas =' ABCDEFGHIJKLMNOPQRSTUVWXYZSENHA'
 
@@ -40,4 +45,16 @@ function almentar(){
 
 
 
+}
+
+// checkbox[0]
+//c
+//
+//
+
+// função para classificar a senha
+function classificar senha(){
+
+    if(o tamanho da senha > 11)
+        forcasenha.classList.add 
 }
