@@ -33,8 +33,15 @@ for(let i = 0; i <checkbox.longth; i++){
 botoes[0].onclick = diminuir;
 
 function diminuir(){
-    tamanhoSenha--;
+
+        if(tamanhoSenha> 0 ){
+            tamanhoSenha--;
     numeroSenha.textContent = tamanhoSenha;
+    gera 
+        }
+
+        
+    
 }
 
 botoes[1].onclick = almentar;
@@ -55,6 +62,13 @@ function almentar(){
 // função para classificar a senha
 function classificar senha(){
 
+forcasenha.classList.remove('forte')'medio' 'fraco'
+
+
+
     if(o tamanho da senha > 11)
         forcasenha.classList.add 
+    else if 
+    else classList.remove('fraco')
+
 }
