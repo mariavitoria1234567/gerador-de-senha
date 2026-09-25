@@ -89,8 +89,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
-.parametro-senha__botao{
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
@@ -104,14 +102,13 @@ body{
     font-size: 24px;
     margin: 0;
     border-top: 2px solid var(--borda);
-    border-bo
 }
 .parametro-senha__texto{
 
 }
 
 .barra{
-   background-color:var(--fundo-senha) ;
+   background-color: var(--fundo-senha) ;
 height: 30px;
 width: 100%;
 }
