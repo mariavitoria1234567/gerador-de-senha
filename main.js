@@ -11,7 +11,7 @@ let letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 tamanhoSenha = 8
 numeroSenha.textContent = tamanhoSenha;
 
-const checkbox = document.querySelectorAll('.checkbox')
+const checkbox = document.querySelectorAll('.checkbox input')
 
 for(let i = 0; i < checkbox.length; i++){
     checkbox[i].onclick = geraSenha;
